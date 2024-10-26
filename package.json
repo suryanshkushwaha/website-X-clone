@@ -1,0 +1,22 @@
+{
+  "name": "video-101",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "vite",
+    "start": "concurrently \"npm run build\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

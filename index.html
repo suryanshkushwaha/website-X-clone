@@ -116,8 +116,7 @@
 
     <main class="main lg:w-[1050px] flex justify-between relative">
         <div class="left border border-gray-800">
-            <div
-                class="top flex align-middle self-center text-center font-bold border-b border-gray-800 relative cursor-pointer">
+            <div class="top flex align-middle self-center text-center font-bold border-b border-gray-800 cursor-pointer sticky top-0 bg-black bg-opacity-70">
                 <div class="left w-1/2 hover:bg-gray-900 py-3 ">For you</div>
                 <div class="right w-1/2 hover:bg-gray-900 py-3 ">Following</div>
                 <div class="bar absolute bg-[#1d9bf0] w-1/12 h-1 bottom-0 left-[21%] rounded-full"></div>
@@ -439,7 +438,16 @@
 
                 <button class="show-more text-[#1d9bf0] cursor-pointer">Show more</button>
             </div>
-
+            
+            <div class="terms p-4 text-xs text-gray-500">
+                <span class="hover:underline cursor-pointer mr-2">Terms of Service</span>
+                <span class="hover:underline cursor-pointer mr-2">Privacy Policy</span>
+                <span class="hover:underline cursor-pointer mr-2">Cookie Policy</span>
+                <span class="hover:underline cursor-pointer mr-2">Accessibility</span>
+                <span class="hover:underline cursor-pointer mr-2">Ads info</span>
+                <span class="hover:underline cursor-pointer mr-2">More</span>
+                <span class="hover:underline cursor-pointer mr-2">© 2024 X Corp.</span>
+            </div>
         </div>
     </main>
 
